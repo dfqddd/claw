@@ -1,0 +1,295 @@
+{
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "imageModel": {
+        "fallbacks": [
+          "bailian/qwen3.6-plus"
+        ],
+        "primary": "bailian/qwen3.6-plus"
+      },
+      "maxConcurrent": 4,
+      "model": {
+        "primary": "custom-dogfooding/Qwen3.6-Plus-DogFooding"
+      },
+      "models": {
+        "bailian/qwen-plus": {},
+        "bailian/qwen3.6-plus": {}
+      },
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "model": {
+          "primary": "bailian/qwen3.6-plus"
+        },
+        "name": "厉飞雨",
+        "workspace": "/Users/dfq/.openclaw/workspace"
+      },
+      {
+        "default": true,
+        "id": "hanli",
+        "model": {
+          "primary": "custom-dogfooding/Qwen3.6-Plus-DogFooding"
+        },
+        "name": "韩立",
+        "workspace": "/Users/dfq/.openclaw/workspace-hanli"
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "agentId": "hanli",
+      "match": {
+        "channel": "dingtalk-connector"
+      }
+    },
+    {
+      "agentId": "hanli",
+      "match": {
+        "channel": "openclaw-tmcp-dingtalk"
+      }
+    }
+  ],
+  "channels": {
+    "dingtalk-connector": {
+      "clientId": "dingma7yf0kl1qbyifsx",
+      "clientSecret": "<YOUR_DINGTALK_CLIENT_SECRET>",
+      "enabled": false,
+      "gatewayToken": "<YOUR_DINGTALK_GATEWAY_TOKEN>",
+      "groupSessionScope": "group",
+      "separateSessionByConversation": true,
+      "sharedMemoryAcrossConversations": false
+    },
+    "openclaw-tmcp-dingtalk": {
+      "accessToken": "<YOUR_DINGTALK_ACCESS_TOKEN>",
+      "cardFeedbackMode": "strong",
+      "channelId": "ai-work-kit",
+      "eva": {
+        "appName": "qwen_df_openclaw",
+        "enabled": true,
+        "feedback": {
+          "enabled": true,
+          "waitTimeoutSeconds": 0
+        }
+      },
+      "plugin": "openclaw-tmcp-dingtalk",
+      "serverAddress": "<YOUR_OPENCLAW_SERVER_ADDRESS>"
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "ownerDisplay": "raw",
+    "restart": true
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "<YOUR_GATEWAY_AUTH_TOKEN>"
+    },
+    "bind": "loopback",
+    "controlUi": {
+      "allowInsecureAuth": true
+    },
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true
+        }
+      }
+    },
+    "mode": "local",
+    "port": 18789,
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "ping-island-openclaw": {
+          "enabled": false
+        },
+        "self-improvement": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "memory": {
+    "backend": "builtin",
+    "citations": "auto"
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "meta": {
+    "lastTouchedAt": "2026-05-16T13:23:50.026Z",
+    "lastTouchedVersion": "2026.5.7"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "bailian": {
+        "api": "openai-completions",
+        "apiKey": "<YOUR_BAILIAN_API_KEY>",
+        "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "models": [
+          {
+            "contextWindow": 1000000,
+            "id": "qwen3.6-plus",
+            "input": [
+              "text",
+              "image"
+            ],
+            "maxTokens": 65536,
+            "name": "qwen3.6-plus",
+            "reasoning": false
+          },
+          {
+            "contextWindow": 1000000,
+            "id": "qwen-plus",
+            "input": [
+              "text",
+              "image"
+            ],
+            "maxTokens": 65536,
+            "name": "qwen-plus",
+            "reasoning": false
+          }
+        ]
+      },
+      "bailian-internal": {
+        "api": "openai-completions",
+        "apiKey": "<YOUR_BAILIAN_INTERNAL_API_KEY>",
+        "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "models": [
+          {
+            "contextWindow": 1000000,
+            "id": "qwen3.6-plus",
+            "input": [
+              "text",
+              "image"
+            ],
+            "maxTokens": 65536,
+            "name": "qwen3.6-plus",
+            "reasoning": false
+          }
+        ]
+      },
+      "custom-dogfooding": {
+        "api": "openai-completions",
+        "apiKey": "<YOUR_DOGFOODING_API_KEY>",
+        "baseUrl": "<YOUR_DOGFOODING_BASE_URL>",
+        "models": [
+          {
+            "contextWindow": 990000,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "qwen3.6-plus-preview",
+            "input": [
+              "text",
+              "image"
+            ],
+            "maxTokens": 65535,
+            "name": "qwen3.6-plus-preview",
+            "reasoning": false
+          },
+          {
+            "contextWindow": 990000,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "Qwen3.6-Plus-DogFooding",
+            "input": [
+              "text",
+              "image"
+            ],
+            "maxTokens": 65535,
+            "name": "Qwen3.6-Plus-DogFooding",
+            "reasoning": false
+          }
+        ]
+      }
+    }
+  },
+  "plugins": {
+    "allow": [
+      "browser",
+      "openclaw-tmcp-dingtalk",
+      "openclaw-plugin-agenttrack",
+      "openclaw-security-sdk",
+      "ali-skill-plugin"
+    ],
+    "entries": {
+      "ali-skill-plugin": {
+        "config": {},
+        "enabled": true
+      },
+      "dingtalk-connector": {
+        "enabled": false
+      },
+      "openclaw-plugin-agenttrack": {
+        "config": {
+          "appName": "qwen_df_openclaw",
+          "feedback": {
+            "enabled": false
+          },
+          "manifestUrl": "https://dev.g.alicdn.com/AIWorkKit/oc-cc/0.0.1/cc/manifest.json",
+          "mode": "local"
+        },
+        "enabled": true,
+        "hooks": {
+          "allowConversationAccess": true
+        }
+      },
+      "openclaw-security-sdk": {
+        "enabled": true
+      },
+      "openclaw-tmcp-dingtalk": {
+        "config": {
+          "cardAtSender": "",
+          "cardStreamingMode": "all",
+          "cardStreamInterval": 500,
+          "groupDefaultMessageType": "card",
+          "welcomeMessage": "always"
+        },
+        "enabled": true
+      }
+    }
+  },
+  "skills": {
+    "entries": {
+      "1688-shopkeeper": {
+        "env": {
+          "ALI_1688_AK": "<YOUR_1688_AK>"
+        }
+      }
+    }
+  },
+  "tools": {},
+  "update": {
+    "checkOnStart": false
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-03T12:50:05.756Z",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local",
+    "lastRunVersion": "2026.3.2"
+  }
+}

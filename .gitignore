@@ -1,0 +1,56 @@
+# OpenClaw sensitive data - DO NOT PUSH
+# Config files with credentials
+identity/
+devices/
+gateway.env.bak
+
+# Runtime data
+backup-*/
+memory/*.sqlite*
+tasks/*.sqlite*
+flows/*.sqlite*
+logs/
+browser/
+npm/
+delivery-queue/
+session-delivery-queue/
+reports/
+reviews/
+media/
+tmp/
+data/
+
+# Installed extensions and plugins
+extensions/
+plugins/
+plugin-skills/
+qqbot/
+service-env/
+hooks/
+canvas/
+subagents/
+
+# Market skills (weekly backups, 24G)
+skills/market/
+skills/config/
+
+# Agents runtime data
+agents/
+
+# Environment files with secrets
+.env
+*.env
+
+# System files
+.DS_Store
+instance-id
+update-check.json
+update-notification.sent
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Misc runtime
+cron/
+completions/

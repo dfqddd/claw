@@ -1,0 +1,11 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "description": "企业级前端开发规范，使用 React 18+、TypeScript、Ant Design 5+、IceJS v3、icestark 微前端、AEM 监控、ECharts 图表。适用于创建/修改前端项目、编写组件、配置路由、集成 API、实现微前端、添加图表等场景。包管理使用 tnpm。",
+  "publishConfig": {
+    "registry": "<YOUR_SKILL_REGISTRY_URL>"
+  },
+  "aoneKit": {
+    "generated": true
+  }
+}

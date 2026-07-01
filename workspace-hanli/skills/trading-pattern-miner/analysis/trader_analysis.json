@@ -1,0 +1,325 @@
+{
+  "report_date": "2026-03-05 20:19:43",
+  "statistics": {
+    "total": 32,
+    "with_id": 29,
+    "without_id": 3,
+    "by_source": {
+      "活跃选手": 12,
+      "知名游资": 6,
+      "聪哥推荐": 4,
+      "风云榜#1": 1,
+      "风云榜#2": 1,
+      "风云榜#3": 1,
+      "风云榜#4": 1,
+      "风云榜#5": 1,
+      "风云榜#6": 1,
+      "风云榜#7": 1,
+      "风云榜#8": 1,
+      "风云榜#9": 1,
+      "风云榜#10": 1
+    },
+    "name_patterns": {
+      "数字型": [
+        "简单 6855",
+        "平凡的世界 2008",
+        "涅槃重生 2018",
+        "小宝 1105"
+      ],
+      "情绪型": [
+        "大师兄擒妖",
+        "小土堆爆金币",
+        "jl 韭菜抄家"
+      ],
+      "目标型": [
+        "十万起家"
+      ],
+      "技术型": [
+        "星辰趋势主升",
+        "玫瑰超短"
+      ],
+      "其他": [
+        "陈小炮",
+        "二池",
+        "webqiang",
+        "名字被你们",
+        "请叫我小蟒夫",
+        "徐润发",
+        "陈药师",
+        "A 股菜徐坤",
+        "a 拉神灯",
+        "故事漂泊记",
+        "水哥炒股",
+        "太牛啦",
+        "作手新一",
+        "炒股养家",
+        "赵老哥",
+        "龙飞虎",
+        "职业炒手",
+        "退学炒 A 股",
+        "东北玄",
+        "短狙作手",
+        "海擒涨停王",
+        "米开朗基瑞"
+      ]
+    }
+  },
+  "trader_list": [
+    {
+      "index": 1,
+      "name": "陈小炮",
+      "user_id": "13232170",
+      "blog_url": "https://www.tgb.cn/blog/13232170",
+      "source": "风云榜#1",
+      "status": "pending"
+    },
+    {
+      "index": 2,
+      "name": "简单 6855",
+      "user_id": "7834779",
+      "blog_url": "https://www.tgb.cn/blog/7834779",
+      "source": "风云榜#2",
+      "status": "pending"
+    },
+    {
+      "index": 3,
+      "name": "二池",
+      "user_id": "9435281",
+      "blog_url": "https://www.tgb.cn/blog/9435281",
+      "source": "风云榜#3",
+      "status": "pending"
+    },
+    {
+      "index": 4,
+      "name": "webqiang",
+      "user_id": "242875",
+      "blog_url": "https://www.tgb.cn/blog/242875",
+      "source": "风云榜#4",
+      "status": "pending"
+    },
+    {
+      "index": 5,
+      "name": "名字被你们",
+      "user_id": "3324313",
+      "blog_url": "https://www.tgb.cn/blog/3324313",
+      "source": "风云榜#5",
+      "status": "pending"
+    },
+    {
+      "index": 6,
+      "name": "请叫我小蟒夫",
+      "user_id": "2210094",
+      "blog_url": "https://www.tgb.cn/blog/2210094",
+      "source": "风云榜#6",
+      "status": "pending"
+    },
+    {
+      "index": 7,
+      "name": "徐润发",
+      "user_id": "9418324",
+      "blog_url": "https://www.tgb.cn/blog/9418324",
+      "source": "风云榜#7",
+      "status": "pending"
+    },
+    {
+      "index": 8,
+      "name": "陈药师",
+      "user_id": "8252860",
+      "blog_url": "https://www.tgb.cn/blog/8252860",
+      "source": "风云榜#8",
+      "status": "pending"
+    },
+    {
+      "index": 9,
+      "name": "A 股菜徐坤",
+      "user_id": "3320257",
+      "blog_url": "https://www.tgb.cn/blog/3320257",
+      "source": "风云榜#9",
+      "status": "pending"
+    },
+    {
+      "index": 10,
+      "name": "平凡的世界 2008",
+      "user_id": "10690544",
+      "blog_url": "https://www.tgb.cn/blog/10690544",
+      "source": "风云榜#10",
+      "status": "pending"
+    },
+    {
+      "index": 11,
+      "name": "a 拉神灯",
+      "user_id": "5727139",
+      "blog_url": "https://www.tgb.cn/blog/5727139",
+      "source": "聪哥推荐",
+      "status": "pending"
+    },
+    {
+      "index": 12,
+      "name": "故事漂泊记",
+      "user_id": "",
+      "blog_url": "",
+      "source": "聪哥推荐",
+      "status": "pending"
+    },
+    {
+      "index": 13,
+      "name": "水哥炒股",
+      "user_id": "",
+      "blog_url": "",
+      "source": "聪哥推荐",
+      "status": "pending"
+    },
+    {
+      "index": 14,
+      "name": "太牛啦",
+      "user_id": "",
+      "blog_url": "",
+      "source": "聪哥推荐",
+      "status": "pending"
+    },
+    {
+      "index": 15,
+      "name": "作手新一",
+      "user_id": "827264",
+      "blog_url": "https://www.tgb.cn/blog/827264",
+      "source": "知名游资",
+      "status": "pending"
+    },
+    {
+      "index": 16,
+      "name": "炒股养家",
+      "user_id": "134434",
+      "blog_url": "https://www.tgb.cn/blog/134434",
+      "source": "知名游资",
+      "status": "pending"
+    },
+    {
+      "index": 17,
+      "name": "赵老哥",
+      "user_id": "154034",
+      "blog_url": "https://www.tgb.cn/blog/154034",
+      "source": "知名游资",
+      "status": "pending"
+    },
+    {
+      "index": 18,
+      "name": "龙飞虎",
+      "user_id": "103830",
+      "blog_url": "https://www.tgb.cn/blog/103830",
+      "source": "知名游资",
+      "status": "pending"
+    },
+    {
+      "index": 19,
+      "name": "职业炒手",
+      "user_id": "4223",
+      "blog_url": "https://www.tgb.cn/blog/4223",
+      "source": "知名游资",
+      "status": "pending"
+    },
+    {
+      "index": 20,
+      "name": "十万起家",
+      "user_id": "138280",
+      "blog_url": "https://www.tgb.cn/blog/138280",
+      "source": "知名游资",
+      "status": "pending"
+    },
+    {
+      "index": 21,
+      "name": "大师兄擒妖",
+      "user_id": "9767895",
+      "blog_url": "https://www.tgb.cn/blog/9767895",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 22,
+      "name": "退学炒 A 股",
+      "user_id": "9767895",
+      "blog_url": "https://www.tgb.cn/blog/9767895",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 23,
+      "name": "涅槃重生 2018",
+      "user_id": "2888425",
+      "blog_url": "https://www.tgb.cn/blog/2888425",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 24,
+      "name": "小土堆爆金币",
+      "user_id": "9259508",
+      "blog_url": "https://www.tgb.cn/blog/9259508",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 25,
+      "name": "东北玄",
+      "user_id": "8580229",
+      "blog_url": "https://www.tgb.cn/blog/8580229",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 26,
+      "name": "星辰趋势主升",
+      "user_id": "8186648",
+      "blog_url": "https://www.tgb.cn/blog/8186648",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 27,
+      "name": "短狙作手",
+      "user_id": "8423616",
+      "blog_url": "https://www.tgb.cn/blog/8423616",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 28,
+      "name": "玫瑰超短",
+      "user_id": "11668853",
+      "blog_url": "https://www.tgb.cn/blog/11668853",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 29,
+      "name": "海擒涨停王",
+      "user_id": "12695061",
+      "blog_url": "https://www.tgb.cn/blog/12695061",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 30,
+      "name": "小宝 1105",
+      "user_id": "9239701",
+      "blog_url": "https://www.tgb.cn/blog/9239701",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 31,
+      "name": "jl 韭菜抄家",
+      "user_id": "7737030",
+      "blog_url": "https://www.tgb.cn/blog/7737030",
+      "source": "活跃选手",
+      "status": "pending"
+    },
+    {
+      "index": 32,
+      "name": "米开朗基瑞",
+      "user_id": "11056656",
+      "blog_url": "https://www.tgb.cn/blog/11056656",
+      "source": "活跃选手",
+      "status": "pending"
+    }
+  ]
+}

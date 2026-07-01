@@ -1,0 +1,11 @@
+{
+  "name": "superpowers-dispatching-parallel-agents",
+  "version": "0.1.0",
+  "description": "当面临2个或更多可以独立处理、没有共享状态或顺序依赖关系的任务时使用",
+  "publishConfig": {
+    "registry": "<YOUR_SKILL_REGISTRY_URL>"
+  },
+  "aoneKit": {
+    "generated": true
+  }
+}

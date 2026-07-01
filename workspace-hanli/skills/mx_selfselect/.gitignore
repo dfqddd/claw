@@ -1,0 +1,23 @@
+# 环境变量（包含 API Key，不要提交）
+.env
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+
+# 输出文件
+*.md
+*.csv
+*.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

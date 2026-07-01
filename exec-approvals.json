@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/Users/dfq/.openclaw/exec-approvals.sock",
+    "token": "<YOUR_SOCKET_TOKEN>"
+  },
+  "defaults": {},
+  "agents": {}
+}

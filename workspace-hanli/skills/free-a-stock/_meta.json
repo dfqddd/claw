@@ -1,0 +1,9 @@
+{
+  "name": "free-a-stock",
+  "version": "1.0.0",
+  "description": "免费 A 股数据查询服务 - 基于腾讯/新浪财经 API，无需 Token",
+  "author": "厉飞雨",
+  "license": "MIT",
+  "tags": ["stock", "a-share", "free", "finance"],
+  "created": "2026-03-02"
+}

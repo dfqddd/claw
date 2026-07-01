@@ -1,0 +1,11 @@
+{
+  "name": "superpowers-writing-plans",
+  "version": "0.1.0",
+  "description": "当你有针对多步骤任务的规范或要求时使用，在接触代码之前使用",
+  "publishConfig": {
+    "registry": "<YOUR_SKILL_REGISTRY_URL>"
+  },
+  "aoneKit": {
+    "generated": true
+  }
+}
